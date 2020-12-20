@@ -12,7 +12,7 @@ public static class PhysicsExtensions
     /// <param name="target"></param>
     /// <param name="angle"></param>
     /// <returns></returns>
-    public Vector3 CalcBallisticVelocityVector(Vector3 source, Vector3 target, float angle){
+    public static Vector3 CalcBallisticVelocityVector(Vector3 source, Vector3 target, float angle){
         Vector3 direction = target - source;                            
         float h = direction.y;                                           
         direction.y = 0;                                               
